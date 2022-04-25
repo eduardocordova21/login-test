@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  LoginController.swift
 //  login-test
 //
 //  Created by Eduardo Matheus Oliveira de Córdova on 23/04/22.
@@ -7,19 +7,17 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class LoginController: UIViewController {
 
     @IBOutlet weak var Email: UITextField!
     @IBOutlet weak var Password: UITextField!
     @IBOutlet weak var ValidUserMessage: UILabel!
     
-
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
     
-
     @IBAction func login(_ sender: UIButton) {
         let email = Email.text ?? ""
         let password = Password.text ?? ""
@@ -27,6 +25,9 @@ class ViewController: UIViewController {
         var user = User(email, password)
         
         setValidUserMessage(validUser: user.isValidUser());
+    }
+    
+    @IBAction func register(_ sender: UIButton) {
     }
     
     private func setValidUserMessage(validUser: Bool){
