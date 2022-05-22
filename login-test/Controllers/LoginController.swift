@@ -27,8 +27,7 @@ class LoginController: UIViewController {
         setValidUserMessage(validUser: user.isValidUser());
     }
     
-    @IBAction func register(_ sender: UIButton) {
-    }
+
     
     private func setValidUserMessage(validUser: Bool){
         if(validUser){
