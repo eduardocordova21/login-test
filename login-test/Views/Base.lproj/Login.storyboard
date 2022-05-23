@@ -20,7 +20,7 @@
                                 <rect key="frame" x="91" y="831" width="233" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Esqueci Senha"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Forgot Password"/>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="E-mail" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="h3g-W6-KS1">
                                 <rect key="frame" x="56" y="333" width="303" height="34"/>
@@ -28,16 +28,16 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Senha" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="wQQ-UG-56w" userLabel="Password">
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="wQQ-UG-56w" userLabel="Password">
                                 <rect key="frame" x="56" y="392" width="303" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x1W-kc-VqG" userLabel="Enter">
-                                <rect key="frame" x="171" y="470" width="72" height="34"/>
+                                <rect key="frame" x="174" y="470" width="67" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Entrar">
+                                <buttonConfiguration key="configuration" style="filled" title="Login">
                                     <fontDescription key="titleFontDescription" type="boldSystem" pointSize="16"/>
                                 </buttonConfiguration>
                                 <connections>
@@ -49,10 +49,10 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wgZ-eT-Zmn" userLabel="Register">
-                                <rect key="frame" x="156" y="544" width="102" height="34"/>
+                                <rect key="frame" x="162" y="544" width="90" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="tinted" title="Cadastrar">
+                                <buttonConfiguration key="configuration" style="tinted" title="Register">
                                     <fontDescription key="titleFontDescription" type="boldSystem" pointSize="16"/>
                                 </buttonConfiguration>
                                 <connections>
@@ -81,21 +81,60 @@
             </objects>
             <point key="canvasLocation" x="111.59420289855073" y="93.75"/>
         </scene>
-        <!--View Controller-->
+        <!--Register User Controller-->
         <scene sceneID="nUn-bA-MjD">
             <objects>
-                <viewController id="sle-ax-oAr" sceneMemberID="viewController">
+                <viewController id="sle-ax-oAr" customClass="RegisterUserController" customModule="login_test" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="sIK-dG-iAQ">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="E-mail" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ymi-ew-5Cr">
+                                <rect key="frame" x="56" y="439" width="303" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="EmailChanged:" destination="sle-ax-oAr" eventType="valueChanged" id="Q1p-Xf-Fhm"/>
+                                </connections>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="1Ac-uj-HUx">
+                                <rect key="frame" x="56" y="498" width="303" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="person.crop.circle.fill.badge.plus" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="pYD-TV-OuM">
+                                <rect key="frame" x="168" y="286" width="78" height="107"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B6k-se-FnK">
+                                <rect key="frame" x="177" y="577" width="62" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Save">
+                                    <fontDescription key="titleFontDescription" type="boldSystem" pointSize="16"/>
+                                    <color key="baseBackgroundColor" systemColor="systemGreenColor"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="RegisterNewUser:" destination="sle-ax-oAr" eventType="touchUpInside" id="BV2-tp-AqQ"/>
+                                    <action selector="SaveNewUser:" destination="sle-ax-oAr" eventType="touchUpInside" id="iKt-Ru-x0R"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="Apj-cy-Zw9"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="s1D-qE-OXO"/>
+                    <connections>
+                        <outlet property="Email" destination="ymi-ew-5Cr" id="Kko-NO-Z3E"/>
+                        <outlet property="Password" destination="1Ac-uj-HUx" id="Q2e-0F-2t9"/>
+                        <outlet property="Save" destination="B6k-se-FnK" id="44o-iP-nwm"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CSX-HA-vym" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1052" y="101"/>
+            <point key="canvasLocation" x="1043" y="94"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="hFo-Bi-TNm">
@@ -116,8 +155,12 @@
     </scenes>
     <resources>
         <image name="folder.badge.person.crop" catalog="system" width="128" height="91"/>
+        <image name="person.crop.circle.fill.badge.plus" catalog="system" width="128" height="113"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>

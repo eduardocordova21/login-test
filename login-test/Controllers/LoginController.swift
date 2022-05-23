@@ -27,15 +27,13 @@ class LoginController: UIViewController {
         setValidUserMessage(validUser: user.isValidUser());
     }
     
-
-    
     private func setValidUserMessage(validUser: Bool){
         if(validUser){
-            ValidUserMessage.text = "Valid User"
+            ValidUserMessage.text = "Usuário Válido"
             ValidUserMessage.textColor = UIColor.green
             ValidUserMessage.isHidden = false
         } else {
-            ValidUserMessage.text = "Invalid User"
+            ValidUserMessage.text = "Usuário Inválido"
             ValidUserMessage.textColor = UIColor.red
             ValidUserMessage.isHidden = false
         }
