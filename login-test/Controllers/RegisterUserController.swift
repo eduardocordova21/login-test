@@ -18,11 +18,8 @@ class RegisterUserController : UIViewController{
     }
     
     @IBAction func RegisterNewUser(_ sender: Any) {
-        let email = Email.text ?? "";
-        let password = Password.text ?? "";
-        
-        let user = User(email, password);
-            
+
+                
     }
     
 }

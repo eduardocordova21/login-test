@@ -1,0 +1,36 @@
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "1Ac-uj-HUx"; */
+"1Ac-uj-HUx.placeholder" = "Password";
+
+/* Class = "UIButton"; configuration.title = "Forgot Password"; ObjectID = "5bS-dP-FA9"; */
+"5bS-dP-FA9.configuration.title" = "Forgot Password";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "5bS-dP-FA9"; */
+"5bS-dP-FA9.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "Save"; ObjectID = "B6k-se-FnK"; */
+"B6k-se-FnK.configuration.title" = "Save";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "B6k-se-FnK"; */
+"B6k-se-FnK.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "Register"; ObjectID = "Bg3-4u-Cbd"; */
+"Bg3-4u-Cbd.configuration.title" = "Register";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Bg3-4u-Cbd"; */
+"Bg3-4u-Cbd.normalTitle" = "Button";
+
+/* Class = "UITextField"; placeholder = "E-mail"; ObjectID = "H1O-4L-qVN"; */
+"H1O-4L-qVN.placeholder" = "E-mail";
+
+/* Class = "UILabel"; text = "ValidUserMessage"; ObjectID = "NKL-Rr-Nc8"; */
+"NKL-Rr-Nc8.text" = "ValidUserMessage";
+
+/* Class = "UIButton"; configuration.title = "Login"; ObjectID = "T6G-An-8dx"; */
+"T6G-An-8dx.configuration.title" = "Login";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "fAJ-cq-0AP"; */
+"fAJ-cq-0AP.placeholder" = "Password";
+
+/* Class = "UITextField"; placeholder = "E-mail"; ObjectID = "ymi-ew-5Cr"; */
+"ymi-ew-5Cr.placeholder" = "E-mail";
