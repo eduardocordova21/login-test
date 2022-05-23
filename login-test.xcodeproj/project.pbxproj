@@ -10,7 +10,7 @@
 		C656F2232814C4E600DD826A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C656F2222814C4E600DD826A /* AppDelegate.swift */; };
 		C656F2252814C4E600DD826A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C656F2242814C4E600DD826A /* SceneDelegate.swift */; };
 		C656F2272814C4E600DD826A /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C656F2262814C4E600DD826A /* LoginController.swift */; };
-		C656F22A2814C4E600DD826A /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C656F2282814C4E600DD826A /* Login.storyboard */; };
+		C656F22A2814C4E600DD826A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C656F2282814C4E600DD826A /* Main.storyboard */; };
 		C656F22C2814C4E700DD826A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C656F22B2814C4E700DD826A /* Assets.xcassets */; };
 		C656F22F2814C4E700DD826A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C656F22D2814C4E700DD826A /* LaunchScreen.storyboard */; };
 		C656F23C2814F6ED00DD826A /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = C656F23B2814F6ED00DD826A /* User.swift */; };
@@ -22,7 +22,7 @@
 		C656F2222814C4E600DD826A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C656F2242814C4E600DD826A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		C656F2262814C4E600DD826A /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
-		C656F2292814C4E600DD826A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Login.storyboard; sourceTree = "<group>"; };
+		C656F2292814C4E600DD826A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C656F22B2814C4E700DD826A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C656F22E2814C4E700DD826A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C656F2302814C4E700DD826A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -60,6 +60,8 @@
 		C656F2212814C4E600DD826A /* login-test */ = {
 			isa = PBXGroup;
 			children = (
+				C67E2272283B2683003CE319 /* Services */,
+				C67E2271283B2675003CE319 /* ViewModels */,
 				C656F23A2814F64D00DD826A /* Controllers */,
 				C656F2392814F63E00DD826A /* Views */,
 				C656F2382814F62D00DD826A /* Models */,
@@ -83,7 +85,7 @@
 			isa = PBXGroup;
 			children = (
 				C656F22D2814C4E700DD826A /* LaunchScreen.storyboard */,
-				C656F2282814C4E600DD826A /* Login.storyboard */,
+				C656F2282814C4E600DD826A /* Main.storyboard */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -95,6 +97,20 @@
 				C67E226F283B0051003CE319 /* RegisterUserController.swift */,
 			);
 			path = Controllers;
+			sourceTree = "<group>";
+		};
+		C67E2271283B2675003CE319 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		C67E2272283B2683003CE319 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -157,7 +173,7 @@
 			files = (
 				C656F22F2814C4E700DD826A /* LaunchScreen.storyboard in Resources */,
 				C656F22C2814C4E700DD826A /* Assets.xcassets in Resources */,
-				C656F22A2814C4E600DD826A /* Login.storyboard in Resources */,
+				C656F22A2814C4E600DD826A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -179,12 +195,12 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		C656F2282814C4E600DD826A /* Login.storyboard */ = {
+		C656F2282814C4E600DD826A /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				C656F2292814C4E600DD826A /* Base */,
 			);
-			name = Login.storyboard;
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 		C656F22D2814C4E700DD826A /* LaunchScreen.storyboard */ = {

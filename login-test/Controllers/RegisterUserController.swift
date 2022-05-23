@@ -22,9 +22,7 @@ class RegisterUserController : UIViewController{
         let password = Password.text ?? "";
         
         let user = User(email, password);
-        
-        user.RegisterNewUser(user);
-        
+            
     }
     
 }
