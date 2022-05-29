@@ -19,7 +19,7 @@ class RegisterUserController : UIViewController{
     
     @IBAction func RegisterNewUser(_ sender: Any) {
 
-                
+        navigationController?.popViewController(animated: true)
     }
     
 }
