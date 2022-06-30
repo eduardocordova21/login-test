@@ -5,6 +5,5 @@ target 'login-test' do
   use_frameworks!
 
   # Pods for login-test
-  pod 'RealmSwift'
   
 end

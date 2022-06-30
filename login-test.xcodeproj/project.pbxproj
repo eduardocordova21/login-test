@@ -30,12 +30,12 @@
 		C656F22E2814C4E700DD826A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C656F2302814C4E700DD826A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C656F23B2814F6ED00DD826A /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
-		C6661C42286D36FB00847039 /* login-test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "login-test.app"; path = "/Users/eduardocordova/Projetos/Swift/login-test/build/Debug-iphoneos/login-test.app"; sourceTree = "<absolute>"; };
 		C67E226F283B0051003CE319 /* RegisterUserController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterUserController.swift; sourceTree = "<group>"; };
 		C67E2273283B2E1C003CE319 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
 		C67E2274283B2E1C003CE319 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Main.strings"; sourceTree = "<group>"; };
 		C67E2275283B2E72003CE319 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		C67E2276283B2E72003CE319 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Main.strings; sourceTree = "<group>"; };
+		C6A22D38286D407A004659AB /* login-test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "login-test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +56,6 @@
 				A99CDD6EC1B74829FA1F4B00 /* Pods-login-test.debug.xcconfig */,
 				B4D523732011777B5C6C83D1 /* Pods-login-test.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -66,6 +65,7 @@
 				C656F2212814C4E600DD826A /* login-test */,
 				5EB6FA5911621EC8C3A3437B /* Pods */,
 				E0C30B77227C6AB1033D93AF /* Frameworks */,
+				C6A22D38286D407A004659AB /* login-test.app */,
 			);
 			sourceTree = "<group>";
 		};
@@ -135,7 +135,7 @@
 			);
 			name = "login-test";
 			productName = "login-test";
-			productReference = C6661C42286D36FB00847039 /* login-test.app */;
+			productReference = C6A22D38286D407A004659AB /* login-test.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
