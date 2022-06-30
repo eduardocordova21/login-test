@@ -112,8 +112,7 @@
                                     <color key="baseBackgroundColor" systemColor="systemGreenColor"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="RegisterNewUser:" destination="sle-ax-oAr" eventType="touchUpInside" id="BV2-tp-AqQ"/>
-                                    <action selector="SaveNewUser:" destination="sle-ax-oAr" eventType="touchUpInside" id="iKt-Ru-x0R"/>
+                                    <action selector="SaveUser:" destination="sle-ax-oAr" eventType="touchUpInside" id="23U-xz-LcX"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -124,7 +123,6 @@
                     <connections>
                         <outlet property="Email" destination="ymi-ew-5Cr" id="Kko-NO-Z3E"/>
                         <outlet property="Password" destination="1Ac-uj-HUx" id="Q2e-0F-2t9"/>
-                        <outlet property="Save" destination="B6k-se-FnK" id="44o-iP-nwm"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CSX-HA-vym" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

@@ -18,7 +18,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		C656F21F2814C4E600DD826A /* login-test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "login-test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C656F2222814C4E600DD826A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C656F2242814C4E600DD826A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		C656F2262814C4E600DD826A /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
@@ -27,6 +26,7 @@
 		C656F22E2814C4E700DD826A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C656F2302814C4E700DD826A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C656F23B2814F6ED00DD826A /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		C6661C42286D36FB00847039 /* login-test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "login-test.app"; path = "/Users/eduardocordova/Projetos/Swift/login-test/build/Debug-iphoneos/login-test.app"; sourceTree = "<absolute>"; };
 		C67E226F283B0051003CE319 /* RegisterUserController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterUserController.swift; sourceTree = "<group>"; };
 		C67E2273283B2E1C003CE319 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
 		C67E2274283B2E1C003CE319 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Main.strings"; sourceTree = "<group>"; };
@@ -49,23 +49,12 @@
 			isa = PBXGroup;
 			children = (
 				C656F2212814C4E600DD826A /* login-test */,
-				C656F2202814C4E600DD826A /* Products */,
 			);
-			sourceTree = "<group>";
-		};
-		C656F2202814C4E600DD826A /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				C656F21F2814C4E600DD826A /* login-test.app */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		C656F2212814C4E600DD826A /* login-test */ = {
 			isa = PBXGroup;
 			children = (
-				C67E2272283B2683003CE319 /* Services */,
-				C67E2271283B2675003CE319 /* ViewModels */,
 				C656F23A2814F64D00DD826A /* Controllers */,
 				C656F2392814F63E00DD826A /* Views */,
 				C656F2382814F62D00DD826A /* Models */,
@@ -103,20 +92,6 @@
 			path = Controllers;
 			sourceTree = "<group>";
 		};
-		C67E2271283B2675003CE319 /* ViewModels */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ViewModels;
-			sourceTree = "<group>";
-		};
-		C67E2272283B2683003CE319 /* Services */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Services;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,7 +109,7 @@
 			);
 			name = "login-test";
 			productName = "login-test";
-			productReference = C656F21F2814C4E600DD826A /* login-test.app */;
+			productReference = C6661C42286D36FB00847039 /* login-test.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -163,7 +138,7 @@
 				es,
 			);
 			mainGroup = C656F2162814C4E600DD826A;
-			productRefGroup = C656F2202814C4E600DD826A /* Products */;
+			productRefGroup = C656F2162814C4E600DD826A;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (

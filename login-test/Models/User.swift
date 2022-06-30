@@ -7,8 +7,6 @@
 
 import Foundation
 
-var SavedUsers = Array<User>();
-
 struct User {
     var email: String;
     var password: String;
@@ -32,10 +30,6 @@ extension User{
         }
         
         return isValid;
-    }
-    
-    mutating func RegisterNewUser(user: User) -> Void{
-        SavedUsers.append(user);
     }
 }
 
