@@ -16,6 +16,7 @@
 		C656F22F2814C4E700DD826A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C656F22D2814C4E700DD826A /* LaunchScreen.storyboard */; };
 		C656F23C2814F6ED00DD826A /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = C656F23B2814F6ED00DD826A /* User.swift */; };
 		C67E2270283B0051003CE319 /* RegisterUserController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67E226F283B0051003CE319 /* RegisterUserController.swift */; };
+		C6A98BAB286D4F9900B58AB7 /* Database.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C6A98BA9286D4F9900B58AB7 /* Database.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		C67E2275283B2E72003CE319 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		C67E2276283B2E72003CE319 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Main.strings; sourceTree = "<group>"; };
 		C6A22D38286D407A004659AB /* login-test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "login-test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6A98BAA286D4F9900B58AB7 /* Database.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Database.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 		C656F2212814C4E600DD826A /* login-test */ = {
 			isa = PBXGroup;
 			children = (
+				C6A98BA5286D4E7900B58AB7 /* Database */,
 				C656F23A2814F64D00DD826A /* Controllers */,
 				C656F2392814F63E00DD826A /* Views */,
 				C656F2382814F62D00DD826A /* Models */,
@@ -107,6 +110,14 @@
 				C67E226F283B0051003CE319 /* RegisterUserController.swift */,
 			);
 			path = Controllers;
+			sourceTree = "<group>";
+		};
+		C6A98BA5286D4E7900B58AB7 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				C6A98BA9286D4F9900B58AB7 /* Database.xcdatamodeld */,
+			);
+			path = Database;
 			sourceTree = "<group>";
 		};
 		E0C30B77227C6AB1033D93AF /* Frameworks */ = {
@@ -220,6 +231,7 @@
 				C656F23C2814F6ED00DD826A /* User.swift in Sources */,
 				C656F2272814C4E600DD826A /* LoginController.swift in Sources */,
 				C656F2232814C4E600DD826A /* AppDelegate.swift in Sources */,
+				C6A98BAB286D4F9900B58AB7 /* Database.xcdatamodeld in Sources */,
 				C656F2252814C4E600DD826A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -448,6 +460,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C6A98BA9286D4F9900B58AB7 /* Database.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C6A98BAA286D4F9900B58AB7 /* Database.xcdatamodel */,
+			);
+			currentVersion = C6A98BAA286D4F9900B58AB7 /* Database.xcdatamodel */;
+			path = Database.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = C656F2172814C4E600DD826A /* Project object */;
 }
